@@ -1,13 +1,13 @@
 {
   "spec_dir": "spec",
   "spec_files": [
-    "command_spec.js",
-    "jasmine_spec.js",
+    "*[sS]pec.js",
     "reporters/**/*[sS]pec.js",
     "filters/**/*[sS]pec.js"
   ],
   "helpers": [
     "helpers/**/*.js"
   ],
-  "random": true
+  "random": true,
+  "alwaysListPendingSpecs": false
 }
