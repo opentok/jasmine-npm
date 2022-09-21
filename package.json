@@ -28,8 +28,8 @@
     "README.md"
   ],
   "dependencies": {
-    "glob": "^7.1.6",
-    "jasmine-core": "^4.4.0"
+    "glob": "^7.1.4",
+    "jasmine-core": "https://github.com/v-kpheng/jasmine.git#electron-missing-jasmineFile"
   },
   "bin": "./bin/jasmine.js",
   "main": "./lib/jasmine.js",

@@ -20,6 +20,11 @@ https://jasmine.github.io/setup/nodejs.html
 
 Installation:
 
+## Why the fork?
+
+For ElectronJS versions 11.0.0-nightly.20200721 and beyond, [karma-electron-launcher](https://github.com/lele85/karma-electron-launcher) is able to capture ElectronJS but no tests get run.  This fork links to the [jasmine-core patch](https://github.com/v-kpheng/jasmine/blob/electron-missing-jasmineFile/src/core/util.js#L119) as a dependency.
+
+## Installation
 ```sh
 npm install --save-dev jasmine
 ```
